@@ -4,9 +4,6 @@
     font-family: sans-serif;
 }
 
-.content-page{
-}
-
 .main{
     height: calc(100vh - 50px);
     background-color: #111;
@@ -16,6 +13,18 @@
 .menu-laterale{
     background-color: gray;
     width: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside-top{
+    background-color: lightblue;
+}
+
+.aside-bottom{
+    background-color: orange;
 }
 
 .container-playlist{
