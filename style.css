@@ -146,4 +146,26 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+
+.padding-left-20{
+    padding-left: 10px;
+}
+
+.footer-center{
+    
+}
+
+.footer-right{
+    display: none;
+}
+
+footer img{
+    max-width: 30px;
 }
