@@ -11,9 +11,8 @@
 }
 
 .menu-laterale{
-    background-color: gray;
+    background-color: #222;
     width: 80px;
-
 
     display: flex;
     flex-direction: column;
@@ -21,12 +20,23 @@
     align-items: center;
 }
 
-.aside-top{
-    background-color: lightblue;
+.logo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: white;
 }
 
-.aside-bottom{
-    background-color: orange;
+.contain-icon{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.contain-icon.border{
+    border-top: 1px solid white;
+    font-size: 35px;
 }
 
 .container-playlist{
