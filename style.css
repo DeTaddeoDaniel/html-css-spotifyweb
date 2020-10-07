@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 
+/* ------------------ PARTE PAGE NO FOOTER -------------------- */
 .main{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 100px);
     background-color: #111;
     display: flex;
 }
 
-/* ---------------- MENU LATERALE */
+/* ---------------- MENU LATERALE---------------- */
 .menu-laterale{
     background-color: #222;
     width: 80px;
@@ -20,6 +21,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+}
+.aside-top{
+    width: 100%;
 }
 
 .logo{
@@ -62,11 +66,67 @@
 .contain-icon.border{
     border-top: 1px solid white;
     font-size: 35px;
-    max-width: 50%;
     margin: auto;
 }
 
-.aside-bottom{
+@media (min-width:768px) {
+
+    .menu-laterale{
+        width: 200px;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+
+    .logo{
+        align-self: center;
+    }
+
+    .span-search::after{
+        content: " Cerca";
+        font-size: 15px;
+    }
+
+    .span-home::after{
+        content: " Home";
+        font-size: 15px;
+    }
+
+    .span-libreria::after{
+        content: " La tua libreria";
+        font-size: 15px;
+    }
+
+    .span-app::after{
+        content: " Download app";
+        font-size: 15px;
+    }
+
+    .span-guest::after{
+        content: " Guest";
+        font-size: 15px;
+    }
+
+    .contain-icon{
+        text-align: left;
+    }
+
+    .aside-top .contain-icon::after{
+        content: "";
+        position: absolute;
+        left: -15px;
+        top: 0;
+    }
+
+    .aside-bottom{
+        width: 80%;
+    }
+
+    .contain-icon.border{
+        border-top: 1px solid white;
+        font-size: 20px;
+        margin: auto;
+    }
+
 
 }
 
@@ -105,7 +165,7 @@ section h2{
 section .list-playlist{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 section .list-playlist .playlist{
@@ -114,8 +174,6 @@ section .list-playlist .playlist{
     border: 1px solid purple;
     flex: 0 50%;
     max-width: 200px;
-
-
 }
 
 section .list-playlist .img-container{
@@ -125,6 +183,7 @@ section .list-playlist .img-container{
 
 section .list-playlist .img-container img{
     width: 100%;
+    max-width: 200px;
     border-radius: 50%;
 
 }
@@ -133,14 +192,17 @@ section .list-playlist h5{
     font-size:20px;
 }
 
+@media (min-width: 768px) {
 
-
-
+    .container-playlist{
+        flex-basis: calc(100% - 200px);
+    }
+}
 
 /* ------------------- INIZIO FOOTER ------------------ */
 
 footer{
-    height: 50px;
+    height: 100px;
     width: 100%;
     background-color: #3b3b3b;
     display: flex;
@@ -170,6 +232,7 @@ footer{
     width: calc(90% / 4);
     display: inline-block;
     text-align: center;
+    font-size: 20px;
 }
 
 .slidecontainer,
@@ -177,11 +240,16 @@ footer{
     width: 100%;
 }
 
+.slidecontainer {
+    margin-top: 5px;
+}
+
 .slidecontainer span{
     width: 60px;
     text-align: center;
     padding-right: 30px;
     color: #fff;
+    font-size: 20px;
 }
 
 .slidecontainer input{
