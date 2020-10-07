@@ -167,15 +167,25 @@ footer{
 .icon{
     color: white;
     opacity: 0.7;
-    width: calc(95% / 4);
+    width: calc(90% / 4);
     display: inline-block;
     text-align: center;
 }
 
 .slidecontainer,
-.slidecontainer input,
 .button-video{
     width: 100%;
+}
+
+.slidecontainer span{
+    width: 60px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.slidecontainer input{
+    margin: 0 auto;
+    width: calc(100% - 70px);
 }
 
 .footer-right{
