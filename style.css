@@ -39,7 +39,6 @@
     display: none;
 }
 
-
 .contain-icon{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -198,6 +197,11 @@ nav{
     color: white;
     display: flex;
     align-items: center;
+}
+
+.section-conteiner{
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 section{
