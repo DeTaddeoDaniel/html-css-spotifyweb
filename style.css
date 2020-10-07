@@ -142,7 +142,7 @@ section .list-playlist h5{
 footer{
     height: 50px;
     width: 100%;
-    background-color: blue;
+    background-color: #3b3b3b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -181,6 +181,7 @@ footer{
     width: 60px;
     text-align: center;
     padding-right: 30px;
+    color: #fff;
 }
 
 .slidecontainer input{
