@@ -72,12 +72,18 @@
 /* ------------------------ INIZIO MAIN -------------------- */
 
 .container-playlist{
-    background-color: green;
+    background: rgb(179,127,6);
+    background: -moz-linear-gradient(90deg, rgba(179,127,6,1) 0%, rgba(75,45,3,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(179,127,6,1) 0%, rgba(75,45,3,1) 100%);
+    background: linear-gradient(90deg, rgba(179,127,6,1) 0%, rgba(75,45,3,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b37f06",endColorstr="#4b2d03",GradientType=1);
+
     flex-basis: calc(100% - 80px);
+    padding: 20px;
+    overflow-y: auto;
 }
 
 nav{
-    background-color: black;
     height: 50px;
     color: white;
     display: flex;
@@ -85,9 +91,43 @@ nav{
 }
 
 section{
-    background-color: lightgreen;
     border: 3px solid red;
+    color: white;
 }
+
+section h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section .list-playlist{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section .list-playlist .playlist{
+    padding: 10px;
+    text-align: center;
+}
+
+section .list-playlist .img-container img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+section .list-playlist h5{
+    font-size:20px;
+}
+
+
+
+
+
+/* ------------------- INIZIO FOOTER ------------------ */
 
 footer{
     height: 50px;
