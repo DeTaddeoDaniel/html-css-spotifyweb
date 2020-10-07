@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.content-page{
+}
+
+.main{
+    height: calc(100vh - 50px);
+    background-color: #111;
+    display: flex;
+}
+
+.menu-laterale{
+    background-color: gray;
+    width: 80px;
+}
+
+.container-playlist{
+    background-color: green;
+    flex-basis: calc(100% - 80px);
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
