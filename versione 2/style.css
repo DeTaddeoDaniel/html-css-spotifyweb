@@ -14,16 +14,19 @@
 
 .content-top{
     height: calc(100% - 70px);
+    display: flex;
 }
 
 /* ----------- MENU LATERALE -------------- */
 .menu-laterale{
-
+    background-color: #e74c3c;
+    width: 50px;
 }
 
 /* ----------- MAIN -------------------------- */
 .main{
-
+    background-color: #2c3e50;
+    flex-grow: 1;
 }
 
 /* ------------- FOOTER ------------------------ */
