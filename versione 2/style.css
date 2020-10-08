@@ -21,6 +21,17 @@
 .menu-laterale{
     background-color: #e74c3c;
     width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-laterale-top{
+    background-color: #2ecc71;
+}
+
+.menu-laterale-bottom{
+    background-color: #8e44ad;
 }
 
 /* ----------- MAIN -------------------------- */
