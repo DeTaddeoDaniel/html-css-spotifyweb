@@ -4,3 +4,30 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
+/* ----------- PAGINA WEB ------------- */
+.wrap{
+    height: 100vh;
+    width: 100%;
+    background-color: #3498db;
+}
+
+.content-top{
+    height: calc(100% - 70px);
+}
+
+/* ----------- MENU LATERALE -------------- */
+.menu-laterale{
+
+}
+
+/* ----------- MAIN -------------------------- */
+.main{
+
+}
+
+/* ------------- FOOTER ------------------------ */
+footer{
+    height: 70px;
+    background-color: #1abc9c;
+}
