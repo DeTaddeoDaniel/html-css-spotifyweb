@@ -48,6 +48,13 @@ nav{
 .container-main{
     background-color: #bdc3c7;
     height: calc(100% - 35px);
+    margin: 0 auto;
+    max-width: 800px
+}
+
+section{
+    background-color: #2ecc71;
+    margin-bottom: 20px;
 }
 
 /* ------------- FOOTER ------------------------ */
