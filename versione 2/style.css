@@ -40,6 +40,16 @@
     flex-grow: 1;
 }
 
+nav{
+    background-color: #1abc9c;
+    height: 35px;
+}
+
+.container-main{
+    background-color: #bdc3c7;
+    height: calc(100% - 35px);
+}
+
 /* ------------- FOOTER ------------------------ */
 footer{
     height: 70px;
