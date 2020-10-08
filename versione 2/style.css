@@ -49,7 +49,8 @@ nav{
     background-color: #bdc3c7;
     height: calc(100% - 35px);
     margin: 0 auto;
-    max-width: 800px
+    max-width: 800px;
+    overflow-y: auto;
 }
 
 section{
@@ -63,6 +64,15 @@ section h2{
 
 section .list-playlist{
     background-color: #e67e22;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playlist{
+    height: 200px;
+    flex-basis: 150px;
+    background-color: #2980b9;
+    margin: 5px;
 }
 /* ------------- FOOTER ------------------------ */
 footer{
