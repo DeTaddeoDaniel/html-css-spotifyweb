@@ -13,7 +13,7 @@
 }
 
 .content-top{
-    height: calc(100% - 70px);
+    height: calc(100% - 60px);
     display: flex;
 }
 
@@ -57,8 +57,15 @@ section{
     margin-bottom: 20px;
 }
 
+section h2{
+    background-color: #9b59b6;
+}
+
+section .list-playlist{
+    background-color: #e67e22;
+}
 /* ------------- FOOTER ------------------------ */
 footer{
-    height: 70px;
+    height: 60px;
     background-color: #1abc9c;
 }
