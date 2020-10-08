@@ -17,6 +17,29 @@
     display: flex;
 }
 
+/* --------------- CONTAINER SEZIONI --------------- */
+.icon-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.icon a{
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+.icon a:hover{
+    opacity: 1;
+}
+
 /* ----------- MENU LATERALE -------------- */
 .menu-laterale{
     /* background-color: #e74c3c; */
@@ -41,30 +64,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-/* --------------------------------------------- */
-.icon-section{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.icon{
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: relative;
-}
-
-.icon a{
-    color: white;
-    opacity: 0.7;
-    font-size: 20px;
-}
-
-.icon a:hover{
-    opacity: 1;
-}
-/* ----------------------------------------- */
 .menu-laterale-top .icon-section .icon.select::before{
     content: "";
     height: 100%;
