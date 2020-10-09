@@ -149,6 +149,15 @@ a{
         text-align: left;
     }
 
+    .icon a{
+        display: flex;
+        align-items: center;
+    }
+
+    .span-side-menu{
+        padding-left: 10px;
+    }
+
     .menu-laterale{
         width: 175px;
         padding: 10px;
