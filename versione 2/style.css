@@ -106,12 +106,12 @@ a{
 .menu-laterale-bottom .icon.guest a{
     border-top: 1px solid white;
     font-size: 30px;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .span-side-menu{
     display: none;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .section-ascoltati-recenti{
@@ -135,12 +135,14 @@ a{
 .lista-playlist-ascoltate li{
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 12px;
 }
 
 .lista-playlist-ascoltate li a:hover{
     opacity: 1;
 }
 
+/* media per rensonsive menu laterale aside */
 @media screen and (min-width:768px) {
 
     .icon{
@@ -198,8 +200,10 @@ a{
     flex-grow: 1;
     padding-left: 20px;
     padding-right: 20px;
+    overflow-y: auto;
 }
 
+/* nav - barra navigazione sito */
 nav{
     /* background-color: #1abc9c; */
 }
@@ -255,6 +259,7 @@ nav .menu-esteso li.select::after{
 
 }
 
+/* media rensonsive del nav */
 @media screen and (min-width:992px) {
     nav .menu-icon{
         display: none;
@@ -267,10 +272,8 @@ nav .menu-esteso li.select::after{
 
 .container-main{
     background-color: #bdc3c7;
-    height: calc(100% - 35px);
     margin: 0 auto;
     max-width: 800px;
-    overflow-y: auto;
 }
 
 section{
