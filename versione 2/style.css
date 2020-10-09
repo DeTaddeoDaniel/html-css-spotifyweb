@@ -304,6 +304,15 @@ section .list-playlist{
     margin: 5px;
 }
 /* ------------- FOOTER ------------------------ */
+footer i{
+    opacity: 0.7;
+    color: white;
+}
+
+footer i:hover{
+    opacity: 1;
+}
+
 footer{
     height: 60px;
     background-color: #2d3436;
@@ -333,7 +342,6 @@ footer{
 
 .footer-left .info-music{
     font-size: 14px;
-    color: white;
     padding-top: 10px;
     padding-bottom: 10px;
     display: none;
@@ -341,7 +349,6 @@ footer{
 
 .footer-left .info-music .album{
     font-size: 12px;
-    opacity: 0.7;
     height: 50%;
     padding-top: 5px;
 }
@@ -379,10 +386,6 @@ footer{
     text-align: center;
 }
 
-.track-control i:hover{
-    opacity: 1;
-}
-
 @media screen and (min-width:350px) {
 
     .track-control i{
@@ -417,7 +420,6 @@ footer{
 .footer-right{
     flex-grow: 0;
     display: inline-block;
-    color: white;
     display: none;
 }
 
@@ -426,7 +428,6 @@ footer{
 }
 
 .footer-right i{
-    opacity: 0.7;
     padding: 0 5px;
 }
 
