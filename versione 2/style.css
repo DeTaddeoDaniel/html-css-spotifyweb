@@ -371,6 +371,7 @@ footer{
 .footer-center{
     flex-grow: 1;
     display: inline-block;
+    padding-right: 15px;
 }
 
 .track-control{
