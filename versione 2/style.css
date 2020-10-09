@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
@@ -69,6 +69,14 @@ a{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo span{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
 }
 
 .menu-laterale-top .icon-section .icon.select::before{
@@ -130,6 +138,19 @@ a{
     .span-side-menu{
         display: inline-block;
     }
+
+    .menu-laterale-bottom .icon.guest a{
+        display: flex;
+        align-items: center;
+        opacity: 1;
+    }
+
+    .menu-laterale-bottom .icon.guest a span{
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
 }
 /* ----------- MAIN -------------------------- */
 .main{
