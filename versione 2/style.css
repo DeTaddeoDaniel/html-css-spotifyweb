@@ -308,10 +308,27 @@ footer{
     height: 60px;
     background-color: #1abc9c;
     display: flex;
+    align-items: center;
 }
 
 .footer-left{
     background-color: #e74c3c;
+    flex-grow: 0;
+}
+
+.footer-left .cover{
+    background-color: #95a5a6;
+    flex-grow: 0;
+}
+
+.footer-left .info-music{
+    background-color: #2980b9;
+    flex-grow: 0;
+}
+
+.footer-left .heart{
+    background-color: #16a085;
+    flex-grow: 0;
 }
 
 .footer-center{
@@ -321,5 +338,5 @@ footer{
 
 .footer-right{
     background-color: #e67e22;
-
+    flex-grow: 0;
 }
