@@ -405,12 +405,42 @@ footer{
     font-size: 12px;
 }
 
+.time-remaing{
+    display: none;
+}
+
 .track-time input{
     flex-grow: 1;
 }
 
+
 .footer-right{
-    background-color: #e67e22;
     flex-grow: 0;
     display: inline-block;
+    color: white;
+    display: none;
+}
+
+.volume-control{
+    padding-top: 20px;
+}
+
+.footer-right i{
+    opacity: 0.7;
+    padding: 0 5px;
+}
+
+.footer-right input{
+    margin-right: 20px;
+    max-width: 90px;
+}
+
+@media (min-width:768px) {
+    .time-remaing{
+        display: inline-block;
+    }
+
+    .footer-right{
+        display: block;
+    }
 }
