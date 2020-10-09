@@ -317,29 +317,36 @@ footer{
 }
 
 .footer-left .cover{
-    /* background-color: #95a5a6; */
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .footer-left .cover img{
     padding: 10px;
-    height: 100%;
-    vertical-align: middle;
+    width: 60px;
 }
 
 .footer-left .info-music{
     background-color: #2980b9;
+    display: inline-block;
 }
 
 .footer-left .heart{
     background-color: #16a085;
+    display: inline-block;
 }
+
+
+
 
 .footer-center{
     background-color: #8e44ad;
     flex-grow: 1;
+    display: inline-block;
 }
 
 .footer-right{
     background-color: #e67e22;
     flex-grow: 0;
+    display: inline-block;
 }
