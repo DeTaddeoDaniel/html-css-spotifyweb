@@ -364,6 +364,26 @@ footer{
     display: inline-block;
 }
 
+.track-control{
+    background-color: blue;
+    color: white;
+    opacity: 0.7;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 50%;
+    padding-top: 7px;
+}
+
+.track-control i{
+    padding: 0 10px;
+    width: calc(90% / 5);
+    text-align: center;
+}
+
+.track-control i:hover{
+    opacity: 1;
+}
+
 .footer-right{
     background-color: #e67e22;
     flex-grow: 0;
