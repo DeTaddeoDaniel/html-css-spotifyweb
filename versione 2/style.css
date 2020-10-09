@@ -359,7 +359,6 @@ footer{
 }
 
 .footer-center{
-    background-color: #8e44ad;
     flex-grow: 1;
     display: inline-block;
 }
@@ -372,16 +371,25 @@ footer{
     max-width: 400px;
     height: 50%;
     padding-top: 7px;
+    text-align: center;
 }
 
 .track-control i{
-    padding: 0 10px;
-    width: calc(90% / 5);
+    padding: 0 1px;
+    font-size: 12px;
     text-align: center;
 }
 
 .track-control i:hover{
     opacity: 1;
+}
+
+@media screen and (min-width:350px) {
+
+    .track-control i{
+        padding: 0 10px;
+        width: calc(90% / 5);
+    }
 }
 
 .footer-right{
