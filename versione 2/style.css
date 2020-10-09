@@ -116,6 +116,32 @@ a{
     font-size: 15px;
 }
 
+.section-ascoltati-recenti{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.section-ascoltati-recenti h5{
+    color: white;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+.lista-playlist-ascoltate{
+    list-style-type: none;
+    /* padding-left: 0; */
+}
+
+.lista-playlist-ascoltate li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.lista-playlist-ascoltate li a:hover{
+    opacity: 1;
+}
+
 @media screen and (min-width:768px) {
 
     .icon{
@@ -123,7 +149,7 @@ a{
     }
 
     .menu-laterale{
-        width: 150px;
+        width: 175px;
         padding: 10px;
     }
 
